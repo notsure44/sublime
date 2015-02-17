@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block content %}
+    <div>
+	<div class="columns small-12 small-centered columns">
+	<br>
+	</div>
+    </div>
+	<div class="row">
+		<div class="columns small-10 small-centered columns">
+			<ul class="example-orbit" data-orbit data-options="animation_speed:1500;">
+				<li class="active"> 
+					<img src="/media/img/home4.jpg" alt="slide 4" /> 
+				</li>
+				<li>
+					<img src="/media/img/home2.jpg" alt="slide 2" />
+				</li> 
+				<li>
+					<img src="/media/img/home3.jpg" alt="slide 3" />
+				</li>
+				<li>
+					<img src="/media/img/home1.jpg" alt="slide 1" />
+				</li>
+				<li>
+					<img src="/media/img/home6.jpg" alt="slide 6" />
+				</li>
+				<li>
+					<img src="/media/img/home7.jpg" alt="slide 7" />
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="columns small-12">
+			<h3>Welcome to Sublime Canines, your certified dog training specialist.</h3>
+		</div>
+		<div class="columns small-10">
+			<p>
+			Sublime Canines provides dog training services and behavior solutions for dog owners in the Austin,Texas area including Cedar Park and surrounding areas.
+			</p>
+			<p>
+			Sublime Canines is all about dogs – manners training, puppy training, advanced training, behavior modification and more for your best friend.  We can customize dog training according to your specific needs. We offer group dog training classes as well as private lessons. Whether you're looking for a class for a new puppy or for an older dog, we have dog training classes to meet every level of training desired. 
+			</p>
+			<p>
+			With over 10 years of experience in dog training and canine behavior modification, we've helped thousands of dog owners achieve their training goals through modern, positive training techniques. We'd be happy to set up an appointment to discuss all of your dog training needs and questions.
+			</p>
+			<blockquote>Dogs are not our whole lives, but they make our lives whole.<cite>Roger Paras</cite></blockquote>
+				
+		</div>
+		<div class="columns small-2">
+			<div class="columns small-centered">
+			<br>
+			</div>
+			<div class="columns small-centered text-center">
+				<a class="th [radius]" href="http://www.akc.org/" target="_blank"> <img src="/media/img/akcgoodcitizen.png"> </a>
+			</div>
+			<div class="columns small-centered">
+			<br>
+			</div>
+			<div class="columns small-centered text-center">
+				<a class="th [radius]" href="http://www.ccpdt.org/" target="_blank"> <img src="/media/img/ccpdt1.png"> </a>
+			</div>
+			<div class="columns small-centered">
+			<br>
+			</div>
+			<div class="columns small-centered text-center">
+				<a class="th [radius]" href="http://apdt.com/" target="_blank"> <img src="/media/img/apdt.png"> </a>
+			</div>
+		</div>
+	</div>
+{% endblock %}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sublime canines</title>
+    <link rel="stylesheet" href="media/css/foundation.css" />
+    <script src="media/js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+    <div class="contain-to-grid fixed"> 
+        <nav class="top-bar" data-topbar role="navigation">
+		<ul class="title-area">
+			<li class="name">
+				<h1><a href="#"><img src="/media/img/logo.jpg"></a></h1>
+			</li>
+			<li class="toggle-topbar"><a href ="#"><span>Menu</span></a></li>
+		</ul>
+		<section class="top-bar-section">
+			<ul class="right">
+				<li class="has-dropdown"><a href="#">Services</a>
+					<ul class="dropdown">
+						<li><a href="#">Group classes</a></li>
+						<li><a href="#">Private lessons</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Meet the trainer</a></li>
+				<li><a href="#">Testimonials</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Schedule</a></li>
+				<li><a href="#">Contact</a></li>
+				<li class="has-form">
+					<a href="#" class="button radius">Get started</a>	
+				</li>
+			</ul>
+		</section>
+	</nav>
+{% block content %}
+{% endblock %}
+    </div>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
